@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript-prework</title>
+</head>
+<body>
+	<script>
+		var evenThree = function(x){
+			var result;
+			if(x % 3 === 0){
+				result = "fizz";
+			}
+			
+			return result;
+		}
+		console.log(evenThree(9));
+
+		var evenThree = function(x){
+			var result;
+			if(x % 3 == 0){
+				result = "fizz";
+			}
+			
+			return result;
+		}
+		console.log(evenThree(9));
+
+		var evenFive = function(x){
+			var result;
+			if(x % 5 == 0){
+				result = "buzz";	
+			}
+			
+			return result;
+		}
+
+		console.log(evenFive(20));
+
+		var threeFive = function(x){
+			var result;
+			if(x % 3 == 0 && x % 5 == 0){
+				result ="fizzbuzz";
+			}else{
+				result = "wrong";
+			}
+			return result;
+		}
+
+		console.log(threeFive(15));
+	</script>
+</body>
+</html>
